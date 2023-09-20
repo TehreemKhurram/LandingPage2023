@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  background-color: #c8e2e9;
+}
+
+.showPage {
+  background: url(https://t3.ftcdn.net/jpg/03/07/58/86/360_F_307588607_gxuDKAIqEwknbrBgpQ3pQiNWKyLmWI93.jpg)center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.showPage h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(4, 56, 7);
+  background: white;
+  font-size: 3.5rem;
+}
+
+.showPage h1:hover {
+  background: gray;
+  cursor: pointer;
+  transition: all .5s ease-in-out
+}
+
+.showPage p {
+  color: rgb(46, 68, 4);
+  background: white;
+  font-size: 1.5rem;
+}
+
+.btn-1 {
+  background: #963407;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-top: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.btn-1:hover {
+  background: #cc4400;
+}
+
+#section-1 {
+  text-align: center;
+  padding: 40px;
+}
+
+#section-1 h1 {
+  margin: 30px;
+  padding: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0f881f;
+  font-size: 3.5rem;
+}
+
+#section-2 {
+  margin-bottom: 20px;
+}
+
+#section-2 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0f881f;
+  font-size: 3.5rem;
+}
+
+#section-2 p {
+  text-align: center;
+  margin: 10px;
+}
+
+.flex-columns {
+  display: flex;
+  padding: 50px;
+}
+
+footer {
+  min-height: 150px;
+  background: url(https://media.istockphoto.com/id/1211781372/photo/sityscape-of-beautiful-metropolitan-city-karachi.jpg?s=612x612&w=0&k=20&c=s8x-7guoOpjclH2gnW1Eh6hE9Zj54YnIIm6vfY6C3Ig=);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+/* 
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+} */
+
+footer p {
+  color: black;
+  font-size: 24px;
+}
